@@ -1,0 +1,49 @@
+.header{
+    padding-left: 75px;
+    padding-top: 50px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.meat{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    gap: 10px;
+}
+
+.intro{
+    font-size: 25px;
+}
+
+.about-photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.about-photos img{
+    width: 600px;
+}
+
+.about{
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+
+.hobbies{
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 100px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
