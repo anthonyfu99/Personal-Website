@@ -5,7 +5,7 @@
     font-style: italic;
 }
 
-.meat{
+.main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px;
@@ -46,4 +46,10 @@
     padding: 100px;
     padding-top: 200px;
     padding-bottom: 50px;
+}
+
+@media (max-width: 1250px){
+    .main{
+        grid-template-columns: 1fr;
+    }
 }
