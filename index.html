@@ -7,40 +7,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header id="transition3" class="header">
         <div class="name">
             <a>Anthony Fu</a>
         </div>
     </header>
     <main class="main">
-        <div class="intro">
+        <div id="transition" class="intro">
             <p>Hello I'm Anthony!</p>
             <p>I enjoy building things, but what I really enjoy is building things with other people!</p>
             <p>So let's build this website together.</p>
-            <p>Feel free to play around with the style.css menu!</p>
+            <p>Feel free to play around with the styles.css menu!</p>
         </div>
-        <div class="css-menu">  
-        </div> 
         
-        <div class="about-photos">
+        <div id="transition2" class="interactive-style-container">
+            <div>
+            <div class="interactive-tab">
+                <div class="tab-text">styles.css</div>
+            </div>
+            <div class="interactive-box">
+                <div class="interactive-sidebar">
+                    <button class="red-button"></button>
+                    <button class="orange-button"></button>
+                    <button class="green-button"></button>
+                    <button class="navy-button"></button>
+                    <button class="brown-button"></button>
+                    <button class="white-button"></button>
+                    <br>
+                    <button class="small-text-button">A</button>
+                    <button class="big-text-button">A</button>
+                    <br>
+                </div>
+                <div class="codespace">
+                    <div class="code-line">
+                        <span class="line-number">1</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">2</span> 
+                        .anthonys-personal-website {
+                            </div>
+                            <div class="code-line"><span class="line-number">3</span>   color: #FFA500;</div>
+                            <div class="code-line"><span class="line-number">4</span>   font-size: 36px;</div>
+                            <div class="code-line"><span class="line-number">6</span> }</div>
+                            <div class="code-line"><span class="line-number">7</span></div>
+                            <div class="code-line"><span class="line-number">8</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- empty space for div below to animate into -->
+        </div>
+        <div class="content">
+            <!-- empty space for div below to animate into -->
+        </div>
+
+        <div class="about-photos animate-up" id="animateUp">
             <img src="./Photos/Photo1.jpg">
         </div>
-        <div class="about">
+      
+        <div class="about animate-up" id="animateUp">
+            <p>
+                About
+            </p>
             <p>
                 I'm originally from Cupertino, California and a recent graduate from the University of Southern California. Feel free to reach out to me to learn more!
             </p>
         </div>
 
-        <div class="hobbies">
+        <div class="content">
+            <!-- empty space for div below to animate into -->
+        </div>
+        <div class="content">
+            <!-- empty space for div below to animate into -->
+        </div>
+
+        <div class="hobbies animate-up" id="animateUp">
+            <p>Hobbies</p>
             <p>During hours in which I'm not creating software related products, I enjoy creating memories for myself and others through photography! Check out my photography portfolio that I built <a href="https://anthonyfu99.github.io/Photography-Portfolio/">here</a>.</p>
+        </div>
+        <div class="hobbies-photos animate-up" id="animateUp">
+            <img src="./Photos/hobbies-photo.jpeg">
         </div>
     </main>
     <footer>
         <div class="footer">
-            <a>email</a>
+            <a href="mailto:anthonyfu99@gmail.com">email</a>
             <a href="https://github.com/anthonyfu99">GitHub</a> 
             <p>Designed and coded by Anthony Fu</p>
         </div>
     </footer>
+    <script src="index.js" charset="UTF-8"></script>  
 </body>
 </html>
+
